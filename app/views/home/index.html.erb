@@ -1,0 +1,7 @@
+<%= form_tag(form_path, {class: 'form-group'}) do %>
+  <%= label_tag 'Choisis un truk', nil, class: 'label' %> <br/><br/>
+  <%= text_field_tag 'username', nil, placeholder: 'Username ', class: 'form-control', id: 'username' %>
+  <br/>
+
+  <%= submit_tag "Valider", class: "btn btn-primary" %>
+<% end %>
